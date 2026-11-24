@@ -6,8 +6,8 @@ Je vrienden hebben er inmiddels lucht van gekregen dat je kunt programmeren en s
 verzoekjes om webapplicaties te bouwen. Je vriend Constantijn wil heel graag dat je een applicatie voor hem maakt die
 feitjes over landen kan ophalen, zodat hij cool kan doen met zijn wereldse kennis op borrels en verjaardagen.
 
-Je gaat dit doen met behulp van de REST Counties API. De documentatie over de verschillende endpoints kun
-je [hier](https://restcountries.com/#endpoints) vinden. Bekijk deze documentatie goed.
+Je gaat dit doen met behulp van de counties.dev API. De documentatie over de verschillende endpoints kun
+je [hier](https://countries.dev/docs) vinden. Bekijk deze documentatie goed.
 
 Het project is opgezet met [Vite](https://vitejs.dev/guide/) (React versie 18.2.0).
 
@@ -31,7 +31,7 @@ in `src/App.jsx`.
 
 ## Opdracht 1
 
-Je gebruikt de [REST Countries API](https://restcountries.com/#endpoints) om informatie over _alle_ landen ter wereld
+Je gebruikt de [countries.dev API](https://restcountries.com/#endpoints) om informatie over _alle_ landen ter wereld
 weer te geven. Je gebruikt natuurlijk niet alle informatie die je terugkrijgt: alleen de vlag, de naam van
 het land en het aantal inwoners komt in de lijst te staan. Deze informatie wordt opgehaald wanneer de gebruiker op een
 knop drukt.
@@ -39,7 +39,7 @@ knop drukt.
 ![screenshot-opdracht-1.png](src/assets/screenshot-opdracht-1.png)
 
 * Wanneer de gebruiker op een knop klikt, wordt informatie over alle landen ter wereld opgehaald. Hiervoor zul je de
-  documentatie van de [REST Countries API](https://restcountries.com/#endpoints) moeten bekijken om erachter te komen
+  documentatie van de [countries.dev API](https://countries.dev/docs) moeten bekijken om erachter te komen
   welk endpoint het beste past. Wanneer er resultaten
   op de pagina worden getoond, verdwijnt de knop.
 * Bovenaan de pagina staat de afbeelding van een wereldkaart (zie de map `assets`);
@@ -68,7 +68,7 @@ een zoek-functionaliteit kunt inbouwen zodat hij naar landen kan zoeken en zo di
 
 ![screenshot-opdracht-2.png](src/assets/screenshot-opdracht-2.png)
 
-* Je gebruikt de [REST Countries API](https://restcountries.com/#endpoints) om informatie over één specifiek land per
+* Je gebruikt de [countries.dev API](https://countries.dev/docs) om informatie over één specifiek land per
   keer op te halen;
 * Kies één land om mee te beginnen. Zorg ervoor dat de opgehaalde data op de volgende manier wordt weergegeven op de
   pagina:
@@ -97,7 +97,7 @@ _Let op_: het is uitdagender om jouw eigen stappenplan te maken. Maar als je nie
 kun je onderstaand stappenplan gebruiken:
 
 1. Installeer en importeer Axios;
-2. Neem de documentatie van de REST Countries API goed door. Welk endpoint heb je nodig om informatie over alle landen
+2. Neem de documentatie van de [countries.dev API](https://countries.dev/docs) goed door. Welk endpoint heb je nodig om informatie over alle landen
    op te halen?
 3. Maak een knop die een asynchrone functie aanroept wanneer je erop klikt;
 4. Schrijf een asynchrone functie die, met behulp van Axios, een GET-request maakt naar het juiste endpoint. Log de
@@ -121,7 +121,7 @@ kun je onderstaand stappenplan gebruiken:
 _Let op_: het is uitdagender om jouw eigen stappenplan te maken. Maar als je niet zo goed weet waar je moet beginnen,
 kun je onderstaand stappenplan gebruiken:
 
-1. Neem de documentatie van de REST Countries API goed door. Welk endpoint heb je nodig om informatie over één specifiek
+1. Neem de documentatie van de [countries.dev API](https://countries.dev/docs) goed door. Welk endpoint heb je nodig om informatie over één specifiek
    land op te halen, zoals `nederland`?
 2. Maak een knop die een asynchrone functie aanroept wanneer je erop klikt;
 3. Schrijf een asynchrone functie die, met behulp van Axios, een GET-request maakt naar het juiste endpoint
